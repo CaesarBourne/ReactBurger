@@ -1,0 +1,21 @@
+.Toolbar{
+    width: 100%;
+    height: 56px;
+    background-color:#703B09;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+@media(max-width : 499px){
+    .DesktopOnly{
+        display: none;
+    }
+}
